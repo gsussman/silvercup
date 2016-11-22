@@ -147,10 +147,10 @@ img {
 .mainImage
 {
 	text-align:center;
-    background-color:#002957;
     z-index:999;
-    margin-top:0px;
+    margin-top:-205px;
     display:block;
+    max-width: 80%;
 }
 .leftNews {
     float: left;
@@ -246,7 +246,7 @@ img {
 
 .CompanyHeader
 { 
-    height:110px;
+    height:250px;
     background-color:#002856;
     z-index:999;
     margin:0px;
