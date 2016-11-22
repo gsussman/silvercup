@@ -148,7 +148,7 @@ img {
 {
 	text-align:center;
     z-index:999;
-    margin-top:-205px;
+    margin-top:-252px;
     display:block;
     max-width: 80%;
 }
@@ -250,6 +250,7 @@ img {
     background-color:#002856;
     z-index:999;
     margin:0px;
+    margin-top: 12px;
    padding:70px 0 0 0;
    margin-top:10px solid #fff;
 }
@@ -1362,7 +1363,7 @@ div.pagingFCT a:hover.PrevNext
 }
 .home-image
 {
-    margin-top:-1px;
+    margin-top:-20px;
 }
 #investment ul li
 {
