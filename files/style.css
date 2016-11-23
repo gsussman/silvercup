@@ -148,7 +148,7 @@ img {
 {
 	text-align:center;
     z-index:999;
-    margin-top:-252px;
+    margin-top:-374px;
     display:block;
     max-width: 80%;
 }
@@ -246,7 +246,7 @@ img {
 
 .CompanyHeader
 { 
-    height:250px;
+    height:350px;
     background-color:#002856;
     z-index:999;
     margin:0px;

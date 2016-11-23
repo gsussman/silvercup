@@ -12,6 +12,8 @@
     <link href="./files/styles.css" rel="stylesheet" type="text/css">
     <script src="./files/script.js" type="text/javascript"></script>
     <script src="./files/basic.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
      <!--[if IE]>
 <link rel="stylesheet" type="text/css" href="css-old/ieFix.css" title="Normal CSS File">
@@ -71,10 +73,9 @@
     <!--    </div> </div>-->
     <center>
     <div class="mainImage">
-        <img id="bannerPh1" class="home-image" alt="Main Image" src="./files/atlanta.jpg">
-        <script type="text/javascript">
-            initBanners('#bannerPh1', ['files/atlanta.jpg', 'files/atlanta.jpg', 'files/atlanta.jpg', 'files/atlanta.jpg'])
-                </script>
+        <div><img id="bannerPh1" class="home-image" alt="Main Image" src="./files/Atlanta-bg.jpg"></div>
+        <div><img id="bannerPh1" class="home-image" alt="Main Image" src="./files/Tampa_Skyline-bg.jpg"></div>
+        <div><img id="bannerPh1" class="home-image" alt="Main Image" src="./files/Denver-bg.jpg"></div>
     </div>
     </center>
     <div class="container main-container">
@@ -104,5 +105,14 @@
     <script src="./files/bootstrap.min.js" type="text/javascript"></script>
      <script type="text/javascript" src="./files/analytics(1).js"></script> 
 
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $('.mainImage').slick({
+  });
+});
+
+</script>
 
 </body></html>
