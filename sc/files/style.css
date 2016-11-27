@@ -147,10 +147,10 @@ img {
 .mainImage
 {
 	text-align:center;
-    background-color:#002957;
     z-index:999;
-    margin-top:0px;
+    margin-top:-374px;
     display:block;
+    max-width: 80%;
 }
 .leftNews {
     float: left;
@@ -250,6 +250,18 @@ img {
     background-color:#002856;
     z-index:999;
     margin:0px;
+    margin-top: 12px;
+   padding:70px 0 0 0;
+   margin-top:10px solid #fff;
+}
+
+.CompanyHeaderHP
+{ 
+    height:350px;
+    background-color:#002856;
+    z-index:999;
+    margin:0px;
+    margin-top: 12px;
    padding:70px 0 0 0;
    margin-top:10px solid #fff;
 }
@@ -1362,7 +1374,7 @@ div.pagingFCT a:hover.PrevNext
 }
 .home-image
 {
-    margin-top:-1px;
+    margin-top:-20px;
 }
 #investment ul li
 {
